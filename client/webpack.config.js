@@ -29,13 +29,15 @@ module.exports = () => {
       }),
 
       new WebpackPwaManifest({
+        fingerprints: false,
+        inject: true,
         name: 'Just Another Text Editor',
         short_name: 'JATE',
-        desctription: 'Text Editor',
-        background_color: '#7eb4e2', // color hex will be changed for sure
-        theme_color:'#7eb4e2', // color hex will be changed for sure
-        start_url:'./',
-        publicPath:'./',
+        description: 'Note taker/text editor',
+        background_color: '#225ca3',
+        theme_color: '#225ca3',
+        start_url: './',
+        publicPath: './',
         icons: [
           {
             src: path.resolve('src/images/logo.png'),
@@ -44,15 +46,13 @@ module.exports = () => {
           },
         ],
       }),
-
-      
     ],
 
     module: {
       rules: [
         {
-          test: /\.css$/i,
-          use: ['style-loader', 'css-loader'],
+          test: /\.css$/,
+          use: ['style-loader', 'css-loader']
         },
         {
           test: /\.m?js$/,
@@ -61,7 +61,7 @@ module.exports = () => {
             loader: 'babel-loader',
             options: {
               presets: ['@babel/preset-env'],
-              plugins: ['@babel/plugin-proposal-object-rest-spread', '@babel/trasform-runtime'],
+              plugins: ['@babel/plugin-proposal-object-rest-spread', '@babel/transform-runtime'],
             }
           }
         }
