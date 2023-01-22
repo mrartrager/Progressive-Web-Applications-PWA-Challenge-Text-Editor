@@ -1,3 +1,4 @@
+//mvp
 import { openDB } from 'idb';
 
 const initdb = async () =>
