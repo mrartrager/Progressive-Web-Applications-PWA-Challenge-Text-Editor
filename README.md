@@ -33,11 +33,10 @@ Dev Dependancies:
 
 
   ## Usage 
-[Application Heroku!]() 
+Heroku Link: https://git.heroku.com/salty-ridge-99264.git
 
   ## Questions 
  Email: matthew.d.waldron@gmail.com
-
 
  Github: https://github.com/mrartrager 
 
