@@ -33,7 +33,7 @@ Dev Dependancies:
 
 
   ## Usage 
-Heroku Link: https://git.heroku.com/salty-ridge-99264.git
+Heroku Link: https://salty-ridge-99264.herokuapp.com/ 
 
 
 Screenshots:
