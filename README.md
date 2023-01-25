@@ -35,6 +35,15 @@ Dev Dependancies:
   ## Usage 
 Heroku Link: https://git.heroku.com/salty-ridge-99264.git
 
+
+Screenshots:
+Using app in the broswer.
+![Alt text](assets/first%20test%20in%20browser.jpeg)
+
+Using app on Desktop outside of browser.
+![Alt text](assets/testing%20outside%20of%20browser.jpeg)
+
+
   ## Questions 
  Email: matthew.d.waldron@gmail.com
 
